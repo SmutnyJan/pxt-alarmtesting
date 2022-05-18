@@ -1,4 +1,19 @@
-<xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="pxt-on-start"></block>
-  <block type="device_forever"></block>
-</xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="F1)kfqa(xRY{`YPeK~rP">vysledek</variable></variables><block type="pxt-on-start" id="aQ,[#!eqpQ+++]TjU/`H" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="8xu`_b]:ZfrUW?:Waw=#"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        . # # # . 
+        # # # # # 
+        . . . . .
+        `</field><next><block type="radio_set_group" id="mJ8y.n2*~%R~2{PQZ{9M"><value name="ID"><shadow type="math_number_minmax" id="w~f/6]0e_ZY{cy$y{i{6"><mutation min="0" max="255" label="Number" precision="0"/><field name="SLIDER">5</field></shadow></value></block></next></block></statement></block><block type="alarm_onAlarm" id="^pY]dDxO$;NX38s]r]P}" x="309" y="0"><statement name="HANDLER"><block type="device_play_note" id="nrB^L}l21J%tJ^5[|-k]"><value name="note"><shadow type="device_note" id="4|4Gu+wC/n0x|(}PgD#P"><field name="name">262</field></shadow></value><value name="duration"><shadow type="device_beat" id="9dTVjcd7|y+u`Ie^wI{9"><field name="fraction">BeatFraction.Whole</field></shadow></value></block></statement></block><block type="radio_on_string_drag" id="D6cz}SBI9nE!]d2`?a+Q" x="0" y="398"><value name="HANDLER_DRAG_PARAM_receivedString"><shadow type="argument_reporter_string" id="(U:xL39~%xrhS7XK.wQt"><field name="VALUE">receivedString</field></shadow></value><statement name="HANDLER"><block type="variables_set" id="{b8Co8=tcZ_jmEoWPC-~"><field name="VAR" id="F1)kfqa(xRY{`YPeK~rP">vysledek</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="alarm_receiveBroadcast" id="f1@9fJB~YGw7{VByhFVF"><value name="message"><block type="argument_reporter_string" id="Rn,--/gPOeXF}?!t)@`s"><field name="VALUE">receivedString</field></block></value></block></value><next><block type="controls_if" id="g#._r3M3N67GmJRfUv_R"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="!%K23dj-U%Xm(TS{fUIF"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="Qb9^NM7uh5K%uQlLi12V"><field name="VAR" id="F1)kfqa(xRY{`YPeK~rP">vysledek</field></block></value><value name="B"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="logic_boolean" id=";FDG5aAgm2B^3bt=20.q"><field name="BOOL">TRUE</field></block></value></block></value><statement name="DO0"><block type="device_show_leds" id="`33jZSBdAAxEx@;7fQ;m"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        . # # # . 
+        # # # # # 
+        . . # . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="yn7TFQ%W},{Zoq_nR9]M"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        . # # # . 
+        # # # # # 
+        . . . . .
+        `</field></block></statement></block></next></block></statement></block></xml>
